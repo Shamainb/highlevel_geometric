@@ -1,0 +1,35 @@
+Calculate Geometric Shape Area (Switch-Case Algorithm)
+
+1. Start the program
+2. Display the list of geometric figures: Triangle, Square, Rectangle, Circle.
+3. Prompt the user to select a geometric figure (A, B, C, D).
+4. Read the user's choice into the variable 'choice'.
+5. Use a switch-case structure based on the user's choice:
+   Case 'A':
+     Prompt the user to enter the base of the triangle.
+     Read the base into the variable 'base'.
+    Prompt the user to enter the height of the triangle.
+    Read the height into the variable 'height'.
+    Calculate the area of the triangle using the formula: area = 0.5 * base * height.
+    Display the calculated area of the triangle.
+   Case 'B':
+     Prompt the user to enter the side of the square.
+     Read the side into the variable 'side'.
+     Calculate the area of the square using the formula: area = side * side.
+     Display the calculated area of the square.
+   Case 'C':
+    Prompt the user to enter the length of the rectangle.
+    Read the length into the variable 'length'.
+    Prompt the user to enter the width of the rectangle.
+    Read the width into the variable 'width'.
+    Calculate the area of the rectangle using the formula: area = length * width.
+    Display the calculated area of the rectangle.
+   Case 'D':
+    Prompt the user to enter the radius of the circle.
+    Read the radius into the variable 'radius'.
+    Calculate the area of the circle using the formula: area = π * radius * radius (π is a constant).
+    Display the calculated area of the circle.
+   Default case:
+   Display an error message for invalid input.
+6. End the program.
+
